@@ -1,36 +1,30 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="js/jquery-1.10.2.js"></script>
-    <script src="js/scripts.js"></script>
-    <title>Drinks</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+      <script
+    src="https://code.jquery.com/jquery-3.2.1.js"
+    integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+    crossorigin="anonymous"></script>
+      <script src="js/scripts.js"></script>
+    <title>Leap year detector</title>
   </head>
   <body>
     <div class="container">
-      <div id="drinks">
-        <h1>Drink menu</h1>
+      <h1>Leap year detector</h1>
 
-        <h2>Beer</h2>
-        <ul>
-          <li>The King of Beer</li>
-          <li>The Queen of Beer</li>
-          <li>Real cold beer</li>
-        </ul>
+      <form id="leap-year">
+        <div class="form-group">
+          <label for="year">Enter a year and find out if it's a leap year:</label>
+          <input id="year" type="text">
+        </div>
 
-        <h2>Wine</h2>
-        <ul>
-          <li>Red wine</li>
-          <li>White wine</li>
-          <li>Blue wine</li>
-        </ul>
-      </div>
+        <button type="submit" class="btn">Find out!</button>
+      </form>
 
-      <div id="under-21">
-        <h1>Sorry, we can't serve you.</h1>
+      <div id="result">
 
-        <p>It's illegal in the US. Try Mexico or Europe.</p>
       </div>
     </div>
   </body>
